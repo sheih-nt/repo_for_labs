@@ -81,7 +81,7 @@ public:
 
     void attack(Unit& unit) override {
         if (built) {
-            unit.receiveDamage(20.0f); // Наносит 20 единиц урона
+            unit.receiveDamage(20.0f);
             cout << name << " стреляет из пушек по " << unit.getName() << " и наносит 20 урона!" << endl;
         }
     }
